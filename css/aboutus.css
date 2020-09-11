@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(113.27deg, #0A2F26 0%, #00920F 100%);
+  }
+  
+  .rectangle{
+   position:absolute;
+    width: 640px;
+    height: 611px;
+    margin-top: 50px;
+    margin-left: 450px;
+    background: rgba(207, 207, 207, 0.14);
+  }
+  
+  .content{
+      font-size:30px;
+       position: absolute;
+    color: white;
+    margin-top: 5%;
+    margin-left: 650px;
+  }
+  .ryt{
+      font-size:20px;
+       position: absolute;
+      color:white;
+      margin-left:500px;
+      margin-top:18%;
+      
+  }

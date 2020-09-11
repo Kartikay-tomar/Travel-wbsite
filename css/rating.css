@@ -1,0 +1,102 @@
+body{
+  background: #001C03;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  overflow-y: hidden;
+}
+.star{
+  color: goldenrod;
+  font-size: 2.0rem;
+  margin-top: 100px;
+  margin-left: 50px;
+  float: center;
+  padding: 0 1rem; /* space out the stars */
+}
+
+.star::before{
+margin-top: 100px;
+float: center;
+margin-left: 50px;
+content: '\2606';    /* star outline */
+cursor: pointer;
+}
+.star.rated::before{
+/* the style for a selected star */
+margin-top: 100px;
+float: center;
+margin-left: 50px;
+content: '\2605';  /* filled star */
+}
+
+.stars{
+  margin-top: 100px;
+float: center;
+  counter-reset: rateme 0; 
+  margin-left: 50px;  
+  font-size: 2.0rem;
+  font-weight: 900;
+}
+.star.rated{
+  margin-top: 100px;
+float: center;
+margin-left: 50px;
+color: rgb(255, 196, 0);
+  counter-increment: rateme 1;
+}
+.stars::after{
+  margin-top: 100px;
+float: center;
+margin-left: 50px;
+color: white;
+  content: counter(rateme) '/5';
+}
+.X{
+  float: center;
+  /* margin-left: 100px; */
+  padding-left: 50%;
+  margin-top: -25px;
+  font-family: 'Yatra one';
+  font-size: 47px;
+  color: white;
+
+}
+#submit{
+  position: absolute;
+  width: 201px;
+  height: 61px;
+  left: 510px;
+  top: 510px;
+  background: #00A4C8;
+  border-radius: 50px;
+  color: cornsilk;
+  font-size: 30px;
+  font-family: lato;
+  }
+#submit:hover {
+  color: black;
+  }
+#REV{
+position: absolute;
+  width: 750px;
+  height: 100px;
+  margin-left: 250px;
+  margin-top: 90px;
+  color: rgb(255, 255, 255);
+  font-family: 'Caveat'; 
+  font-size: 25px;
+  background: rgba(56, 52, 35, 0.26);
+}
+#REV:hover {
+  color: wheat;
+  font-family: 'Caveat'; 
+  font-size: 25px;
+  }
+::placeholder {
+      color: white;
+      font-family: 'Caveat'; 
+      font-size: 25px;
+    }

@@ -1,0 +1,176 @@
+body{
+        background-image: url('xyz.png');
+        background-size: cover;
+        overflow-x: hidden;
+}
+.heading{
+    position: absolute;
+width: 864px;
+height: 182px;
+margin-left: 539px;
+margin-top: 10px;
+font-family: 'Yatra One';
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 0px;
+display: flex;
+/* align-items: center; */
+text-align: center;
+color: white;
+}
+.r1{
+    position: absolute;
+    width: 206px;
+    height: 55px;
+    background: rgba(221, 221, 221, 0.5);
+    border-radius: 100px;
+    margin-top: 390px;
+    margin-left: 50px;
+    color: cornsilk;
+    font-family: 'Lato';
+}
+.grid1{
+    position: absolute;
+    width: 287px;
+    height: 285px;
+    border-radius: 300px;
+    background: url("tajm.jpg");
+    mix-blend-mode: normal;
+    margin-top: 90px;
+    size: 90%;
+    }
+.grid2{
+    position: absolute;
+    width: 287px;
+    height: 285px;
+    background: url(agra\ fort.jpg);
+    mix-blend-mode: normal;
+    border-radius: 300px;
+    margin-top: 90px;
+    margin-left: 500px;    
+    size: 10%;
+    }
+.r2{
+    position: absolute;
+    width: 206px;
+    height: 55px;
+    background: rgba(221, 221, 221, 0.5);
+    border-radius: 100px;
+    margin-top: 390px;
+    margin-left: 555px;
+    color: cornsilk;
+    font-family: 'Lato';
+}
+.grid3{
+    position: absolute;
+    width: 287px;
+    height: 285px;
+    background: url(fatehpur\ seekri.jpg);
+    mix-blend-mode: normal;
+    border-radius: 300px;
+    margin-left: 1000;
+    margin-top: 90px;
+    size: 90%;
+}
+.r3{
+    position: absolute;
+    width: 206px;
+    height: 55px;
+    background: rgba(221, 221, 221, 0.5);
+    border-radius: 100px;
+    margin-top: 390px;
+    margin-left: 1055px;
+    color: cornsilk;
+    font-family: 'Lato';
+}
+.grid4{
+    position: absolute;
+    width: 287px;
+    height: 285px;
+    background: url(idmad.jpg);
+    mix-blend-mode: normal;
+    border-radius: 300px;
+    margin-top: 480px;
+    size: 90%;
+}
+.r4{
+    position: absolute;
+    width: 236px;
+    height: 85px;
+    background: rgba(221, 221, 221, 0.5);
+    border-radius: 100px;
+    margin-top: 780px;
+    margin-left: 35px;
+    color: cornsilk;
+    size: 2px;
+    font-family: 'Lato';
+}
+.grid5{
+    position: absolute;
+    width: 287px;
+    height: 285px;
+    background: url(akbar\ tomb1.jpg);
+    mix-blend-mode: normal;
+    border-radius: 300px;
+    margin-left: 500;
+    margin-top: 480px;
+    size: 90%;
+}
+.r5{
+    position: absolute;
+    width: 206px;
+    height: 55px;
+    background: rgba(221, 221, 221, 0.5);
+    border-radius: 100px;
+    margin-top: 780px;
+    margin-left: 545px;
+    font-family: 'Lato';
+    color: cornsilk;
+}
+.grid6{
+    position: absolute;
+    width: 287px;
+    height: 285px;
+    background: url(allahabad1.jpg);
+    mix-blend-mode: normal;
+    border-radius: 300px;
+    margin-left: 1000;
+    margin-top: 480px;
+    size: 90%;
+    }
+.r6{
+    position: absolute;
+    width: 206px;
+    height: 55px;
+    background: rgba(221, 221, 221, 0.5);
+    border-radius: 100px;
+    margin-top: 780px;
+    margin-left: 1045px;
+    font-family: 'Lato';
+    color: cornsilk;
+}
+#style-11::-webkit-scrollbar-thumb
+{
+	background-color: #3366FF;
+	border-radius: 10px;
+	background-image: -webkit-linear-gradient(0deg,
+	                                          rgba(255, 255, 255, 0.5) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, 0.5) 50%,
+											  rgba(255, 255, 255, 0.5) 75%,
+											  transparent 75%,
+											  transparent)
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: rgb(9, 43, 3);        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
+    border-radius: 50px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(41, 41, 41);  /* creates padding around scroll thumb */
+  }

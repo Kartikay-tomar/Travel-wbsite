@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Yatra One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #ddd;
+    }
+
+    .btn.active {
+      background-color: rgb(0, 140, 255);
+      color: white;
+    }
+
+    .grid1 {
+      width: 150px;
+      height: 150px;
+      border-radius: 300px;
+      background: url("tajm.jpg");
+      mix-blend-mode: normal;
+      color: honeydew;
+      size: 90%;
+    }
+
+    .grid2 {
+      width: 150px;
+      height: 150px;
+      background: url(agra\ fort.jpg);
+      mix-blend-mode: normal;
+      border-radius: 300px;
+      size: 10%;
+    }
+
+    .grid3 {
+      width: 150px;
+      height: 150px;
+      background: url(fatehpur\ seekri.jpg);
+      mix-blend-mode: normal;
+      border-radius: 300px;
+      size: 90%;
+    }
+
+    .grid4 {
+      width: 150px;
+      height: 150px;
+      background: url(idmad.jpg);
+      mix-blend-mode: normal;
+      border-radius: 300px;
+      size: 90%;
+    }
+
+    .grid5 {
+      width: 150px;
+      height: 150px;
+      background: url(akbar\ tomb1.jpg);
+      mix-blend-mode: normal;
+      border-radius: 300px;
+      size: 90%;
+    }
+
+    body {
+      color: white;
+      overflow-x: hidden;
+      background: linear-gradient(113.27deg, #0A2F26 0%, #00920F 100%);
+    }
+
+    .agra {
+      font-family: yatra one;
+      font-size: 39px;
+      padding-left: 43%;
+    }
+
+    #lines {
+      text-align: justify;
+      text-justify: inter-word;
+      font-family: lato;
+    }
+
+    #head {
+      font-family: yatra one;
+    }
+
+    #style-11::-webkit-scrollbar-thumb {
+      background-color: #3366FF;
+      border-radius: 10px;
+      background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.5) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 75%, transparent 75%, transparent)
+    }
+
+    body::-webkit-scrollbar {
+      width: 12px;
+      /* width of the entire scrollbar */
+    }
+
+    body::-webkit-scrollbar-track {
+      background: rgb(9, 43, 3);
+      /* color of the tracking area */
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background-color: rgb(255, 255, 255);
+      /* color of the scroll thumb */
+      border-radius: 50px;
+      /* roundness of the scroll thumb */
+      border: 3px solid rgb(41, 41, 41);
+      /* creates padding around scroll thumb */
+    }
+  </style>
+  <title>
+    UP|AGRA
+  </title>
+</head>
+
+<body>
+  <span class="agra" align="center">AGRA</span>
+  <h1></h1>
+
+  <p>Click on a button to choose list view or grid view.</p>
+
+  <div id="btnContainer">
+    <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+    <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+  </div>
+  <br>
+
+  <div class="row">
+    <div class="column" style="background: linear-gradient(113.27deg, #90C029 0%, rgba(0, 146, 49, 0.8) 100%);">
+      <h2 id="head">Taj Mahal</h2>
+      <a> <img class="grid1" src="tajm.jpg"> </a>
+      <p id="lines">The Taj Mahal lit. 'Crown of the Palace', is an ivory-white marble mausoleum on the southern bank of
+        the river Yamuna in the Indian city of Agra.<br>
+        It was commissioned in 1632 by the Mughal emperor Shah Jahan (reigned from 1628 to 1658) to house the tomb of
+        his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.<br>
+        The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is
+        set in formal gardens bounded on three sides by a crenellated wall.</p>
+    </div>
+    <div class="column" style="background: linear-gradient(113.27deg, #90C029 0%, rgba(0, 146, 49, 0.8) 100%);">
+      <h2 id="head">Agra Fort</h2>
+      <a><img class="grid2" src="agra fort.jpg"></a>
+      <p id="lines">Agra Fort is a historical fort in the city of Agra in India. It was the main residence of the
+        emperors of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi. <br>
+        Before capture by the British, the last Indian rulers to have occupied it were the Marathas.<br>
+        In 1983, the Agra fort was inscribed as a UNESCO World Heritage site.<br>It is about 2.5 km northwest of its<br>
+        more famous sister monument, the Taj Mahal.<br>
+        The fort can be more accurately described as a walled city.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column" style="background: linear-gradient(113.27deg, #90C029 0%, rgba(0, 146, 49, 0.8) 100%);">
+      <h2 id="head">Fatehpur Sikri</h2>
+      <a><img class="grid3" src="fatehpur seekri.jpg"></a>
+      <p id="lines">Fatehpur Sikri is a town in the Agra District of Uttar Pradesh, India. <br>
+        The city itself was founded as the capital of Mughal Empire in 1571 by Emperor Akbar, <br>
+        serving this role from 1571 to 1585, when Akbar abandoned it due to a campaign in Punjab <br>and was later
+        completely abandoned in 1610.</p>
+    </div>
+    <div class="column" style="background: linear-gradient(113.27deg, #90C029 0%, rgba(0, 146, 49, 0.8) 100%);">
+      <h2 id="head">Itmad-ud-Daulah’s Tomb</h2>
+      <a><img class="grid4" src="idmad.jpg"></a>
+      <p id="lines">Tomb of I'timād-ud-Daulah (I'timād-ud-Daulah Maqbara) is a Mughal mausoleum in the city of Agra in
+        the Indian state of Uttar Pradesh.<br>
+        Often described as a "jewel box", sometimes called the "Bachcha Taj", <br>
+        the tomb of I'timād-ud-Daulah is often regarded as a draft of the Taj Mahal.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column" style="background: linear-gradient(113.27deg, #90C029 0%, rgba(0, 146, 49, 0.8) 100%);">
+      <h2 id="head">Akbar Tomb</h2>
+      <a> <img class="grid5" src="akbar tomb1.jpg"></a>
+      <p id="lines">Akbar's tomb is the tomb of the Mughal emperor Akbar. This tomb is an important Mughal architectural
+        masterpiece. It was built in 1605–1613 by his son Jahangir and <br>
+        is situated in 119 acres of grounds in Sikandra, a sub of Agra, Uttar Pradesh, India. Akbar planned the tomb and
+        selected a suitable site for it. After his death, <br>
+        Akbar's son Jahangir completed the construction in 1605–1613. It cost 1,500,000 rupees to build and took 3 or 4
+        years to complete.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+    </div>
+    <div class="column" style="background: linear-gradient(113.27deg, #90C029 0%, rgba(0, 146, 49, 0.8) 100%);">
+      <h2 id="head">Moti Masjid</h2>
+      <a><img class="grid4" src="moti mashid.jpg"></a>
+      <p id="lines">The Moti Masjid is a white marble mosque inside the Red Fort complex in Delhi, India. The name
+        translates into English as "Pearl Mosque."<br>
+        Located to the west of the Hammam and close to the Diwan-i-Khas, it was built by the Mughal emperor Aurangzeb
+        from 1659-1660.<br>
+        The mosque was built by the Mughal emperor Aurangzeb at the Red Fort complex in Delhi, India, from 1659-1660 for
+        his 2nd wife Nawab Bai. The mosque was also used by the ladies of the Zenana.</p>
+    </div>
+  </div>
+  </div>
+  <script>
+    // Get the elements with class="column"
+    var elements = document.getElementsByClassName("column");
+
+    // Declare a loop variable
+    var i;
+
+    // List View
+    function listView() {
+      for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "100%";
+      }
+    }
+
+    // Grid View
+    function gridView() {
+      for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "50%";
+      }
+    }
+
+    /* Optional: Add active class to the current button (highlight it) */
+    var container = document.getElementById("btnContainer");
+    var btns = container.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+
+</body>
+
+</html>

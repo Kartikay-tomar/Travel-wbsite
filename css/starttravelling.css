@@ -1,0 +1,35 @@
+body{
+  background: linear-gradient(111.6deg, #FF8A00 0%, #FFFFFF 53.12%, #00D722 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hea{
+    margin-top: 30px;
+    font-size: 39px;
+    margin-left: 399px;
+    font-family: 'Yatra One';
+}
+#MAP{
+    float: center;
+    margin-left: 250px;
+    margin-top: 300px;
+    size: 80%;
+}
+#style-11::-webkit-scrollbar-thumb
+{
+	background-color: #3366FF;
+	border-radius: 10px;
+	background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.5) 25%,transparent 25%,transparent 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 75%,transparent 75%,transparent)
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: rgb(9, 43, 3);        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
+    border-radius: 50px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(41, 41, 41);  /* creates padding around scroll thumb */
+  }
